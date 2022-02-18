@@ -85,12 +85,16 @@ a {
     }
 }
 
+.about {
+    padding-bottom: 100px;
+}
 .about__wrapper {
     display: flex;
     justify-content: space-between;
 }
 .about-box {
-    max-width: 600px;
+    max-width: 500px;
+    margin-right: 40px;
 }
 .about-box__title {
     font-size: 40px;
@@ -100,3 +104,37 @@ a {
     font-size: 24px;
     margin-bottom: 20px;
 }
+.about-inform {
+    text-align: center;
+}
+.about-inform__button {
+    color: #0F0E0E;
+    background-color: orange;
+    padding: 15px 45px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all .4s;
+}
+.about-inform__button:hover {
+    background-color: #0F0E0E;
+    color: orange;
+}
+.about-inform__img {
+    width: 60%;
+}
+
+.inform__img {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.inform__title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.inform-slider {
+    width: 600px;
+    height: 300px;
+}
+  
