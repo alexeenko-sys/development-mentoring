@@ -1,5 +1,3 @@
-const swiper = new Swiper('.inform-slider', {
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+$(document).ready(function(){
+  $('.inform-slider').slick();
 });
