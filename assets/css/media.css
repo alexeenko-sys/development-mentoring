@@ -34,7 +34,7 @@
     animation: flashing-border .75s step-end infinite;
   }
   .intro {
-    height: 50vh;
+    height: 60vh;
   }
   .about__wrapper {
     flex-wrap: wrap;
