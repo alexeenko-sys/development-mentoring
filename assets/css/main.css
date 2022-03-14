@@ -249,6 +249,7 @@ a {
 .programm-figure {
     font-size: 90px;
     color: grey;
+    margin-bottom: 10px;
 }
 .programm-info {
     color: grey;
@@ -311,4 +312,19 @@ a {
 }
 .wallet-inform__img {
     width: 60%;
+}
+
+.coming {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.coming__title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.coming__text {
+    font-size: 22px;
+}
+.coming__text a {
+    color: orange;
 }
